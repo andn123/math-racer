@@ -1,26 +1,54 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Math Racer</title>
+    <title>MathRacer</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <script type="module" src="/src/components/site-navbar.js"></script>
     <!-- Other libraries go here -->
   </head>
 
   <body>
+    <site-navbar></site-navbar>
     <!------------------------------>
     <!-- Your HTML Layout go here -->
     <!------------------------------>
     <!-- Stuff for body goes here -->
-
+    <div class="container">
+      <div class="px-4 py-5 my-5 text-center">
+        <img
+          class="d-block mx-auto mb-4"
+          src="/images/"
+          alt=""
+          width="72"
+          height="57"
+        />
+        <h1 class="display-5 fw-bold">
+          TypeRacer - The Global Typing Competition
+        </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Placeholder text.</p>
+          <h2>Placeholder text.</h2>
+          <div class="d-grid justify-content-sm-center">
+            <button
+              onclick="window.location.href = '/pages/game.html'"
+              type="button"
+              class="btn btn-success btn-lg"
+            >
+              Enter a Race
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!---------------------------------------------->
     <!-- Your own JavaScript functions go here    -->
     <!---------------------------------------------->
 
     <!-- Link to scripts of your own -->
     <!-- <script type="module" src="./src/main.js"></script> -->
+    <script type="module" src="/src/app.js"></script>
   </body>
 </html>
