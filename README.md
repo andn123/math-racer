@@ -1,4 +1,4 @@
-# Math Racer
+# MathRacer
 
 
 ## Overview
