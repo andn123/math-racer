@@ -6,8 +6,6 @@ Text
 
 ---
 
----
-
 
 ## Technologies Used
 
